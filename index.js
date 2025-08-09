@@ -61,3 +61,9 @@
 
 
 //----Problem 05--------
+
+var student = {name :'rasel',
+               roll : 1014,
+               department : 'eee'};
+var email = student.name + student.roll + '.' +student.department + '@ph.ac.bd';
+console.log(email);
