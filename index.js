@@ -16,16 +16,27 @@
 
 
 //----Problem 02--------
-var money = 45000;
+// var money = 45000;
   
-if(money >= 45000){
-    console.log('Laptop');
-}
-else if(money >= 10000){
-    console.log('Cycle');
-}
-else{
-    console.log('Choclet');
-}
+// if(money >= 45000){
+//     console.log('Laptop');
+// }
+// else if(money >= 10000){
+//     console.log('Cycle');
+// }
+// else{
+//     console.log('Choclet');
+// }
        
 
+
+
+//----Problem 03--------
+var lastDay = 11;
+for(var day = 1; day <= lastDay; day++){
+    if(day % 3 ===0){
+        console.log('medicine');
+    }else{
+        console.log('rest');
+    }
+}
