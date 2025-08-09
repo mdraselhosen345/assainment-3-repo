@@ -32,11 +32,28 @@
 
 
 //----Problem 03--------
-var lastDay = 11;
-for(var day = 1; day <= lastDay; day++){
-    if(day % 3 ===0){
-        console.log('medicine');
-    }else{
-        console.log('rest');
-    }
+// var lastDay = 11;
+// for(var day = 1; day <= lastDay; day++){
+//     if(day % 3 ===0){
+//         console.log('medicine');
+//     }else{
+//         console.log('rest');
+//     }
+// }
+
+
+
+
+//----Problem 04--------
+var fileName = 'gddfh.docx';
+if(fileName.startsWith('#')){
+    console.log('Store');
+}
+else if(fileName.endsWith('.pdf')){
+    console.log('Store');
+}
+else if(fileName.endsWith('.docx')){
+    console.log('Store')
+}else{
+    console.log('Delete');
 }
