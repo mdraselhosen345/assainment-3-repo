@@ -45,15 +45,19 @@
 
 
 //----Problem 04--------
-var fileName = 'gddfh.docx';
-if(fileName.startsWith('#')){
-    console.log('Store');
-}
-else if(fileName.endsWith('.pdf')){
-    console.log('Store');
-}
-else if(fileName.endsWith('.docx')){
-    console.log('Store')
-}else{
-    console.log('Delete');
-}
+
+// var fileName = 'gddfh.docx';
+// if(fileName.startsWith('#')){
+//     console.log('Store');
+// }
+// else if(fileName.endsWith('.pdf')){
+//     console.log('Store');
+// }
+// else if(fileName.endsWith('.docx')){
+//     console.log('Store')
+// }else{
+//     console.log('Delete');
+// }
+
+
+//----Problem 05--------
